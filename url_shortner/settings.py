@@ -67,7 +67,7 @@ TEMPLATES = [
         },
     },
 ]
- 
+   
 WSGI_APPLICATION = 'url_shortner.wsgi.application'
 
 
