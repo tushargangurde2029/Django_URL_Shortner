@@ -12,10 +12,11 @@ def index(request):
         save_url.save()
         print(short_url)
         context ={
-            'url':short_url
+            'url':short_url,
+            'completeurl':url
         }
-        return render(request,"shortner_app\index.html",context)
-    return render(request,"shortner_app\index.html")
+        return render(request,"shortner_app/index.html",context)
+    return render(request,"shortner_app/index.html")
 
 def short_link(request, link):
     get_url = Url_Model.objects.get(short_url=link)
