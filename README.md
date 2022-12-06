@@ -1,4 +1,4 @@
-##Application Created with Django
+## Application Created with Django
 
 Applications takes the requested URL and creates a new Short-URL
 
